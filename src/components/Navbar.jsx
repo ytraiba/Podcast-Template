@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
       <div>
-        <h3 className='ml-6 text-2xl sm:text-5xl font-bold border-b-4 border-yellow-300'><Link to="home" smooth={true} duration={500}>The African Block</Link></h3>
+        <h3 className='ml-6 text-3xl sm:text-5xl font-bold border-b-4 border-yellow-300'><Link to="home" smooth={true} duration={500}>The African Block</Link></h3>
         {/* <img src={Logo} alt='Logo' style={{ width: '250px' }} /> */}
       </div>
 
@@ -56,7 +56,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#90BEDE] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#b5b5b5] flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -66,25 +66,13 @@ const Navbar = () => {
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
+          <Link onClick={handleClick} to='Listen' smooth={true} duration={500}>
+            Listen
           </Link>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
-          <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-            Skills
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='Article' smooth={true} duration={500}>
-            Article
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+          <Link onClick={handleClick} to='Constact' smooth={true} duration={500}>
             Contact
           </Link>
         </li>
