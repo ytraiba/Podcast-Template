@@ -2,7 +2,7 @@ import React from 'react';
 
 const Latest = () => {
   return (
-    <div name='Latest' className='w-full h-screen p-5 md:h-[90vh] text-gray-300 flex place-items-center bg-hero-back bg-fixed bg-cover'>
+    <div name='Latest' className='w-full h-screen p-5 md:h-[90vh] text-gray-300 flex place-items-center bg-hero-back sm:bg-fixed bg-cover'>
       <div className='max-w-[800px] max-h-[700px] sm:max-h-[500px] rounded-md mx-auto p-4 flex flex-col justify-center w-full h-full bg-hero-blue bg-cover'>
         <div className='flex flex-col justify-center items-center w-full h-full text-white '>
           <h3 className='text-4xl md:text-5xl border-b-4 border-yellow-300'>Our Latest Episode</h3>
