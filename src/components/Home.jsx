@@ -16,7 +16,6 @@ const Home = () => {
           Welcome to the podcast.</h2>
         <br/>
         <br/>
-        <br/>
         <button className='mt-8 text-white group border-2 border-white px-6 py-3 my-2 flex items-center hover:border-yellow-300 hover:text-yellow-300'>
             Listen
             <span className='group-hover:rotate-90 duration-300'>
