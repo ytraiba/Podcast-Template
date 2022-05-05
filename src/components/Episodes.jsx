@@ -8,10 +8,10 @@ import EP6 from '../assets/EP6.jpeg';
 
 const Episodes = () => {
     const GridEntry = props => {
-        return <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 h-auto py-4'>
+        return <div className='rounded-sm shadow-md shadow-[#040c16] hover:scale-110 duration-500 h-auto py-4'>
             <div className='flex flex-col justify-center items-center h-full text-lg'>
             <p className='text-xl mb-4'>{props.name}</p>
-            <img className='w-40 sm:w-52 mx-auto' src={props.img} alt={props.alt} />
+            <img className='rounded-sm w-40 sm:w-52 mx-auto' src={props.img} alt={props.alt} />
             <p className='text-sm mt-4'>{props.asset}</p>
             </div>
         </div>
