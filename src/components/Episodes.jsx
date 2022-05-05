@@ -1,7 +1,7 @@
 import React from 'react';
 // import { HTML, CSS, JS, ReactImg, Node, Github } from '../assets';
 
-const Skills = () => {
+const Episodes = () => {
     const GridEntry = props => {
         return <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 h-72'>
             <div className='flex flex-col justify-center items-center h-full text-lg'>
@@ -13,7 +13,7 @@ const Skills = () => {
     };
 
     return (
-    <div name='skills' className='w-full h-[120vh] bg-gray-200 text-black'>
+    <div name='episodes' className='w-full h-[150vh] sm:h-[120vh] bg-gray-200 text-black'>
 
       <div className='max-w-[1000px] mx-auto p-4 pt-[100px] flex flex-col justify-center w-full'>
           <div>
@@ -34,4 +34,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Episodes;

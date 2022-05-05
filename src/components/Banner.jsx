@@ -4,12 +4,13 @@ import React from 'react';
 const Skills = () => {
 
     return (
-    <div name='skills' className='w-full h-screen sm:h-[70vh] bg-hero-back text-white bg-cover'>
-        <div className='w-full flex flex-col mx-auto h-full items-center pt-[100px] relative '>
-
-        <p className='text-4xl font-bold inline border-b-4  border-[#b625d9] pt-20'>Episodes</p>
-        <p className='pb-20'> Season 11</p>
-        <p className='w-full h-[50px] bg-yellow-300 absolute bottom-0'>      </p>
+    <div name='skills' className='w-full h-screen sm:h-[70vh] bg-hero-listen text-white bg-cover'>
+        <div className='w-full flex flex-col mx-auto h-full items-center border border-b-[50px] border-white justify-center'>
+        
+        <p className='text-6xl font-bold inline pt-20'>LISTEN</p>
+        <br/>
+        <p className='text-3xl text-pb-20'>- podcast episodes -</p>
+        
 
         </div>
     </div>

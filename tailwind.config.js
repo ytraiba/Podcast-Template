@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-back': "url('./assets/background.jpeg')",
-        'hero-blue': "url('./assets/blue.jpeg')"
+        'hero-blue': "url('./assets/blue.jpeg')",
+        'hero-listen': "url('./assets/listen.jpeg')"
     },
   },
   plugins: [],

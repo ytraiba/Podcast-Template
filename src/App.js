@@ -2,7 +2,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
+import Episodes from "./components/Episodes";
 import Latest from "./components/Latest";
 // import People from "./components/People";
 import Banner from "./components/Banner";
@@ -25,7 +25,7 @@ export function Team() {
     <div>
       <Navbar />
       <Banner />
-      <Skills />
+      <Episodes />
     </div>
   );
 } 
