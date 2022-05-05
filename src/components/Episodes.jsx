@@ -20,7 +20,7 @@ const Episodes = () => {
     return (
     <div name='episodes' className='w-full h-[150vh] sm:h-[120vh] bg-gray-200 text-black'>
 
-      <div className='max-w-[1000px] mx-auto p-4 pt-[100px] flex flex-col justify-center w-full'>
+      <div className='max-w-[1000px] mx-auto p-4 pt-9 flex flex-col justify-center w-full'>
           <div>
               <p className='text-4xl font-bold inline border-b-4 border-[#b625d9] '>Season One</p>
               <p className='py-4'>Episodes</p>
