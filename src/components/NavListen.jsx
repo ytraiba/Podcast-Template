@@ -28,7 +28,7 @@ const NavListen = () => {
         </li>
         <li>
           <Link to='Episodes' smooth={true} duration={500} offset={-100} > 
-            season one
+            Season One
           </Link>
         </li>
         <li>
@@ -60,7 +60,7 @@ const NavListen = () => {
         <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='Episodes' smooth={true} duration={500} offset={-100}>
-            season one
+            Season One
           </Link>
         </li>
       </ul>
