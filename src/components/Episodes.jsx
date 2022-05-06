@@ -18,7 +18,7 @@ const Episodes = () => {
     };
 
     return (
-    <div name='episodes' className='w-full h-[150vh] sm:h-[130vh] bg-hero-listen bg-fixed bg-cover  text-black'>
+    <div name='Episodes' className='w-full h-[150vh] sm:h-[130vh] bg-hero-listen bg-fixed bg-cover  text-black'>
 
       <div className='max-w-[1200px] mx-auto rounded-lg bg-hero-blue flex flex-col justify-center h-full'>
           <div className='pt-4'>

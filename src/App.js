@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Episodes from "./components/Episodes";
 import Latest from "./components/Latest";
-// import People from "./components/People";
+import NavListen from "./components/NavListen";
 import Banner from "./components/Banner";
 
 
@@ -23,7 +23,7 @@ export function App() {
 export function Team() {
   return (
     <div>
-      <Navbar />
+      <NavListen />
       <Banner />
       <Episodes />
     </div>
