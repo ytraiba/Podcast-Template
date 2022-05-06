@@ -11,7 +11,7 @@ const Episodes = () => {
         return <div className='rounded-sm bg-[#b5b5b5] shadow-md shadow-[#040c16] hover:bg-gray-200 duration-500 h-auto py-4'>
             <div className='flex flex-col justify-center items-center h-full text-lg'>
             <p className='text-2xl mb-4 border-b-4 border-yellow-300'>{props.name}</p>
-            <img className='rounded-md w-56 sm:w-72 mx-auto' src={props.img} alt={props.alt} />
+            <img className='rounded-sm w-56 sm:w-72 mx-auto' src={props.img} alt={props.alt} />
             <p className='text-sm mt-4'>{props.asset}</p>
             </div>
         </div>
