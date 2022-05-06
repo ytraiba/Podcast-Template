@@ -11,7 +11,7 @@ const Episodes = () => {
         return <div className='rounded-sm bg-[#b5b5b5] shadow-md shadow-[#040c16] hover:bg-gray-200 duration-500 h-auto py-4'>
             <div className='flex flex-col justify-center items-center h-full text-lg'>
             <p className='text-2xl mb-4 border-b-4 border-yellow-300'>{props.name}</p>
-            <img className='rounded-md  w-40 sm:w-72 mx-auto' src={props.img} alt={props.alt} />
+            <img className='rounded-md w-56 sm:w-72 mx-auto' src={props.img} alt={props.alt} />
             <p className='text-sm mt-4'>{props.asset}</p>
             </div>
         </div>
@@ -26,7 +26,7 @@ const Episodes = () => {
               <p className='text-white py-4 mx-8'>Episodes</p>
           </div>
 
-          <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-2 px-12 pb-8'>
+          <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-2 px-6 pb-8'>
             <GridEntry name="Episode 1"  asset="March 22nd 2022" img={EP2} alt="EP1 icon" />
             <GridEntry name="Episode 2"  asset="March 23rd 2022" img={EP1} alt="EP1 icon" />
             <GridEntry name="Episode 3"  asset="March 24th 2022" img={EP3}alt="EP1 icon" />
