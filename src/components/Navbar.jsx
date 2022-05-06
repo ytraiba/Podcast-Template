@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
       <div>
-        <a className='ml-6 text-3xl sm:text-5xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
+        <a className='ml-6 text-4xl sm:text-5xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
         {/* <img src={Logo} alt='Logo' style={{ width: '250px' }} /> */}
       </div>
 
