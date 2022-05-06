@@ -23,7 +23,7 @@ const NavListen = () => {
       <ul className='hidden text-3xl text space-x-4 md:flex mt-4'>
         <li className='border-b-2 inline border-transparent hover:border-yellow-300'>
 
-          <a href="../home">Home</a>
+          <a href="../">Home</a>
       
         </li>
         <li>
