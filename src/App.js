@@ -6,6 +6,7 @@ import Episodes from "./components/Episodes";
 import Latest from "./components/Latest";
 import NavListen from "./components/NavListen";
 import Banner from "./components/Banner";
+import SznOneBanner from "./components/SeasonOne/SznOneBanner";
 
 
 export function App() {
@@ -25,6 +26,16 @@ export function Listen() {
     <div>
       <NavListen />
       <Banner />
+      <Episodes />
+    </div>
+  );
+} 
+
+export function SeasonOne() {
+  return (
+    <div>
+      <Navbar />
+      <SznOneBanner />
       <Episodes />
     </div>
   );

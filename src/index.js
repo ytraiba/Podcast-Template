@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import { App, Listen } from './App';
+import { App, Listen, SeasonOne } from './App';
 
 
 function MyRouter() {
@@ -10,7 +10,8 @@ function MyRouter() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/team" element={<Listen />} />
+      <Route path="/Listen" element={<Listen />} />
+      <Route path="/SeasonOne" element={<SeasonOne />} />
     </Routes>
     </BrowserRouter>
   );

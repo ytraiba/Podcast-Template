@@ -23,7 +23,7 @@ const Navbar = () => {
       <ul className='hidden text-2xl text space-x-4 md:flex mt-4'>
         <li className='border-b-2 inline border-transparent hover:border-yellow-300'>
 
-          <a href="./team">Listen</a>
+          <a href="./Listen">Listen</a>
       
         </li>
         <li className='border-b-2 border-transparent hover:border-yellow-300'>
@@ -68,7 +68,7 @@ const Navbar = () => {
           <a href="../">Home</a>
         </li>
         <li className='py-6 text-4xl'>
-          <a href="./team">Listen</a>
+          <a href="./Listen">Listen</a>
         </li>
         <li className='py-6 text-4xl'>
           {' '}
