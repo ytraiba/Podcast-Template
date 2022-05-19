@@ -8,17 +8,17 @@ import EP6 from '../assets/EP6.jpeg';
 
 const Episodes = () => {
     const GridEntry = props => {
-        return <div className='rounded-sm bg-[#b5b5b5] shadow-md shadow-[#040c16] hover:bg-gray-200 duration-500 h-auto py-4'>
+        return <a a href={props.link} className='rounded-sm bg-[#b5b5b5] shadow-md shadow-[#040c16] hover:bg-gray-200 duration-500 h-auto py-4'>
             <div className='flex flex-col justify-center items-center h-full text-lg'>
             <p className='text-2xl mb-4 border-b-4 border-yellow-300'>{props.name}</p>
             <img className='rounded-sm w-56 sm:w-72 mx-auto' src={props.img} alt={props.alt} />
             <p className='text-sm mt-4'>{props.asset}</p>
             </div>
-        </div>
+        </a>
     };
 
     return (
-    <div name='Episodes' className='w-full h-[150vh] sm:h-[130vh] bg-hero-listen bg-fixed bg-cover  text-black'>
+    <div name='Episodes' className='w-full h-[150vh] sm:h-[150vh] bg-hero-listen bg-fixed bg-cover  text-black'>
 
       <div className='max-w-[1200px] mx-auto rounded-lg bg-hero-blue flex flex-col justify-center h-full'>
           <div className='pt-4'>
@@ -27,7 +27,7 @@ const Episodes = () => {
           </div>
 
           <div className='grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-2 px-6 pb-8'>
-            <GridEntry name="Episode 1"  asset="March 22nd 2022" img={EP2} alt="EP1 icon" />
+            <GridEntry name="Episode 1"  asset="March 22nd 2022" img={EP2} alt="EP1 icon" link="../"/>
             <GridEntry name="Episode 2"  asset="March 23rd 2022" img={EP1} alt="EP1 icon" />
             <GridEntry name="Episode 3"  asset="March 24th 2022" img={EP3}alt="EP1 icon" />
             <GridEntry name="Episode 4"  asset="March 25th 2022" img={EP4}alt="EP1 icon" />

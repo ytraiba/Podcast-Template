@@ -28,7 +28,7 @@ const NavListen = () => {
         </li>
         <li>
           <Link to='Episodes' smooth={true} duration={500} offset={-100} > 
-            Season One
+            Season one
           </Link>
         </li>
         <li>

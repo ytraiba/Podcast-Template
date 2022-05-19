@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import { App, Team } from './App';
+import { App, Listen } from './App';
 
 
 function MyRouter() {
@@ -10,7 +10,7 @@ function MyRouter() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/team" element={<Team />} />
+      <Route path="/team" element={<Listen />} />
     </Routes>
     </BrowserRouter>
   );

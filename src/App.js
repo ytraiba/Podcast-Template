@@ -20,7 +20,7 @@ export function App() {
   );
 }
 
-export function Team() {
+export function Listen() {
   return (
     <div>
       <NavListen />
