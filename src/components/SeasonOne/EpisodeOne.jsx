@@ -22,7 +22,7 @@ const Episodes = () => {
             </div>
             <div className='flex flex-wrap h-full pt-0 sm:pt-12 pr-2 sm:pr-6 pl-2 pb-2'> 
               <iframe title="episode one" className='w-full h-3/4 border-4 border-white' src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              <p className='text-xl'>June 12th, 2022</p>
+              <p className='sm:text-xl'>June 12th, 2022</p>
               <div className='flex place-content-end w-full'>
                   <a href="../" className='pt-2 text-2xl sm:text-3xl hover:text-yellow-300'>Next Episode</a> 
               </div>  
