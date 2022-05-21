@@ -7,6 +7,7 @@ import Latest from "./components/Latest";
 import NavListen from "./components/NavListen";
 import Banner from "./components/Banner";
 import SznOneBanner from "./components/SeasonOne/SznOneBanner";
+import EpisodeOne from "./components/SeasonOne/EpisodeOne";
 
 
 export function App() {
@@ -36,7 +37,7 @@ export function SeasonOne() {
     <div>
       <Navbar />
       <SznOneBanner />
-      <Episodes />
+      <EpisodeOne />
     </div>
   );
 } 
