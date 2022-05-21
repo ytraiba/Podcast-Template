@@ -8,7 +8,7 @@ import NavListen from "./components/NavListen";
 import Banner from "./components/Banner";
 import SznOneBanner from "./components/SeasonOne/SznOneBanner";
 import EpisodeOne from "./components/SeasonOne/EpisodeOne";
-
+import NavSeason from "./components/NavSeason";
 
 export function App() {
   return (
@@ -32,10 +32,10 @@ export function Listen() {
   );
 } 
 
-export function SeasonOne() {
+export function SznOneEpOne() {
   return (
     <div>
-      <Navbar />
+      <NavSeason />
       <SznOneBanner />
       <EpisodeOne />
     </div>
