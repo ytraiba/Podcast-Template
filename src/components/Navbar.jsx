@@ -5,6 +5,7 @@ import {
 } from 'react-icons/fa';
 // import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
+import Logo from '../assets/logo.png';
 
 
 
@@ -14,17 +15,19 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
-      <div>
-        <a className='ml-6 text-4xl sm:text-5xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
-        {/* <img src={Logo} alt='Logo' style={{ width: '250px' }} /> */}
+      <div className='flex place-items-end'>
+        <a className=' text-4xl sm:text-5xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
+        <a href="https://david-app-eta.vercel.app/" className='sm:flex sm:place-items-end'>
+        <p className='text-lg sm:text-xl text-center invisible sm:visible font-bold pl-4'>by</p>
+        <img src={Logo} alt='Logo' className='h-5 sm:h-6 pl-4 sm:pl-2' />
+        </a>
       </div>
 
       {/* menu */}
-      <ul className='hidden text-2xl text space-x-4 md:flex mt-4'>
+      <ul className='hidden text-2xl text space-x-2 md:flex mt-4'>
+        
         <li className='border-b-2 inline border-transparent hover:border-yellow-300'>
-
           <a href="./Listen">Listen</a>
-      
         </li>
         <li className='border-b-2 border-transparent hover:border-yellow-300'>
           <Link to='About' smooth={true} duration={800} offset={-100}>
@@ -40,6 +43,9 @@ const Navbar = () => {
           <Link to='Contact' smooth={true} duration={800} offset={-100}> 
             Contact
           </Link>
+        </li>
+        <li className='inline '>
+          <a className='border-b-2 border-[#b625d9]' href="https://david-app-eta.vercel.app/">DataNovae</a>
         </li>
         <li>
          <div class="mb-3 xl:w-62">
@@ -62,31 +68,33 @@ const Navbar = () => {
           !nav
             ? 'hidden'
             : 'absolute top-0 left-0 w-full h-screen bg-[#b5b5b5] flex flex-col justify-center items-center'
-        }
-      >
-        <li className='py-6 text-4xl'>
+        } >
+        <li className='py-4 text-4xl'>
           <a href="../">Home</a>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           <a href="./Listen">Listen</a>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='Latest' smooth={true} duration={500} offset={-100}>
             Our Latest
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='About' smooth={true} duration={500} offset={-100} >
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-4 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='Contact' smooth={true} duration={500} offset={-100}>
             Contact
           </Link>
+        </li>
+        <li className='py-4 text-4xl'>
+          <a className='border-b-2 border-[#b625d9]' href="https://david-app-eta.vercel.app/">DataNovae</a>
         </li>
       </ul>
     </div>
