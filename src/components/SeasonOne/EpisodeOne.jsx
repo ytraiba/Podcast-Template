@@ -7,7 +7,7 @@ const Episodes = () => {
     return (
     <div name='SznOneEpOne'> 
 
-    <div className='flex items-end w-full h-[80vh] bg-hero-listen bg-fixed bg-cover  text-black'>
+    <div className='flex items-end w-full h-[75vh] bg-hero-listen bg-fixed bg-cover  text-black'>
         
       <div className='max-w-[1000px] mx-auto rounded-lg bg-hero-blue bg-cover grid grid-cols-1 sm:grid-cols-2 text-white h-[90vh] sm:h-[66vh]'>
             <div className='pl-2 sm:pl-8 pt-6 sm:pt-8 w-full'>
