@@ -16,8 +16,8 @@ const Home = () => {
           Welcome to the podcast.</h2>
         <br/>
         <br/>
-        <button className='mt-8 text-white group border-2 border-white px-6 py-3 my-2 flex items-center hover:border-yellow-300 hover:text-yellow-300'>
-            Listen
+        <button className='mt-8 text-white group border-2 border-white px-6 py-3 my-2 flex items-center hover:border-yellow-300 hover:text-yellow-300 '>
+            Scroll For More
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3' />
             </span>

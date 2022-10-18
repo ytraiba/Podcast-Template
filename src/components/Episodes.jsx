@@ -8,19 +8,19 @@ import EP6 from '../assets/EP6.jpeg';
 
 const Episodes = () => {
     const GridEntry = props => {
-        return <a a href={props.link} className='rounded-sm bg-[#b5b5b5] shadow-md shadow-[#040c16] hover:bg-gray-200 duration-500 h-auto py-4'>
+        return <a a href={props.link} className='rounded-sm bg-[#b5b5b5] shadow-md shadow-[#040c16] hover:bg-gray-200 duration-500 py-4'>
             <div className='flex flex-col justify-center items-center h-full text-lg'>
             <p className='text-2xl mb-4 border-b-4 border-yellow-300'>{props.name}</p>
-            <img className='rounded-sm w-56 sm:w-72 mx-auto' src={props.img} alt={props.alt} />
+            <img className='rounded-sm w-56  mx-auto' src={props.img} alt={props.alt} />
             <p className='text-sm mt-4'>{props.asset}</p>
             </div>
         </a>
     };
 
     return (
-    <div name='Episodes' className='w-full h-[150vh] sm:h-[1000px] bg-hero-listen bg-fixed bg-cover  text-black'>
+    <div name='Episodes' className='w-full h-[150vh] sm:h-fit bg-hero-listen bg-fixed bg-cover  text-black'>
 
-      <div className='max-w-[1200px] mx-auto rounded-lg bg-hero-blue flex flex-col justify-center h-full'>
+      <div className='max-w-[1200px] mx-auto rounded-lg bg-hero-blue flex flex-col justify-center w-[80%]'>
           <div className='pt-4'>
               <p className='text-4xl font-bold inline border-b-4 border-[#b625d9] text-white mx-8'>Season One</p>
               <p className='text-white text-xl py-4 mx-8'>Episodes</p>

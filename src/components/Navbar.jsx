@@ -14,38 +14,40 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
       <div className='flex items-center sm:place-items-end'>
-        <a className='text-4xl sm:text-5xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
-        <a href="https://david-app-eta.vercel.app/" className='w-0 sm:w-auto sm:flex sm:place-items-end'>
-        <p className='text-lg sm:text-xl text-center font-bold pl-4 invisible sm:visible'>by</p>
-        <img src={Logo} alt='Logo' className='h-5 sm:h-6 pl-4 sm:pl-2 invisible sm:visible' />
+        <a className='whitespace-nowrap text-2xl sm:text-3xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
+        <a href="https://david-app-eta.vercel.app/" className='w-[100%] sm:flex sm:place-items-end'>
+        <p className='text-lg sm:text-xl text-center font-bold pl-4 invisible lg:visible'>by</p>
+        <img src={Logo} alt='Logo' className='h-5 pl-4 sm:pl-2 pr-4 invisible lg:visible' />
         </a>
       </div>
 
       {/* menu */}
-      <ul className='hidden text-2xl text space-x-2 md:flex mt-4'>
+      <ul className='hidden text-xl text space-x-2 md:flex mt-4'>
         
-        <li className='border-b-2 inline border-transparent hover:border-yellow-300'>
+        <li className='border-b-2 inline border-transparent hover:text-yellow-300'>
           <a href="./Listen">Listen</a>
         </li>
-        <li className='border-b-2 border-transparent hover:border-yellow-300'>
-          <Link to='About' smooth={true} duration={800} offset={-100}>
+        <li className='border-b-2 border-transparent hover:text-yellow-300'>
+          <Link to='About' smooth={true} duration={800} offset={-75}>
             About
           </Link>
         </li>
-        <li className='border-b-2 border-transparent hover:border-yellow-300'>
-          <Link to='Latest' smooth={true} duration={800} offset={-100}>
+        <li className='whitespace-nowrap border-b-2 border-transparent hover:text-yellow-300'>
+          <Link to='Latest' smooth={true} duration={800} offset={-75}>
             Our Latest
           </Link>
         </li>
-        <li className='border-b-2 border-transparent hover:border-yellow-300'>
-          <Link to='Contact' smooth={true} duration={800} offset={-100}> 
+        <li className='border-b-2 border-transparent hover:text-yellow-300'>
+          <Link to='Contact' smooth={true} duration={800} offset={-75}> 
             Contact
           </Link>
         </li>
         <li className='inline '>
-          <a className='border-b-2 border-[#b625d9]' href="https://david-app-eta.vercel.app/">DataNovae</a>
+          <a className='border-b-2 border-[#b625d9] hover:text-yellow-300' href="https://david-app-eta.vercel.app/">
+            DataNovae
+          </a>
         </li>
         <li>
          <div class="mb-3 xl:w-62">

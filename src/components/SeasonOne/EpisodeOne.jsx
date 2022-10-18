@@ -14,9 +14,9 @@ const Episodes = () => {
               <p className='text-4xl font-bold inline border-b-4 border-yellow-300 text-white'>Epsiode One</p>
               <p className='text-white text-xl py-4'>Chatting With Yasin</p>
               <p className='sm:text-xl'>In this episode we talk with Yasin and discuss how he built this website 
-                using React.js, Tailwind CSS, and Vercel.In this episode we talk with Yasin and discuss how he built this website 
-                using React.js, Tailwind CSS, and Vercel.n this episode we talk with Yasin and discuss how he built this website 
-                using React.js, Tailwind CSS, and Vercel.In this episode we talk with Yasin and discuss how he built this website 
+                using React.js, Tailwind CSS, and Vercel. In this episode we talk with Yasin and discuss how he built this website 
+                using React.js, Tailwind CSS, and Vercel. In this episode we talk with Yasin and discuss how he built this website 
+                using React.js, Tailwind CSS, and Vercel. In this episode we talk with Yasin and discuss how he built this website 
                 using React.js, Tailwind CSS, and Vercel.
               </p>
             </div>
@@ -35,8 +35,8 @@ const Episodes = () => {
            <div className='pl-2 sm:pl-8 pt-6 sm:pt-8 w-full'>
              <p className='text-3xl font-bold inline border-b-4 border-yellow-300 text-white'>About Yasin</p>
              <p className='text-white text-xl py-2'>His Work and Contact Info</p>
-             <p className='sm:text-xl'>Yasin is working towards a bachelors degree in Civil Engineering while also working as a software developer.
-                Please check out any of his other projects on his portfolio. Also feel free to add him as a friend on LinkedIn.  
+             <p className='sm:text-xl'>Yasin is working towards a bachelors degree in Civil Engineering while learning software development. This is where
+             you can write stuff about your guest for this episode. Feel free to add him as a friend on LinkedIn.  
              </p>
            </div>
            <div className='flex flex-wrap h-fit pt-0 sm:pt-12 pr-2 sm:pr-8 pl-2 sm:pl-4'> 
