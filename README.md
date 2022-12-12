@@ -1,4 +1,4 @@
-# Podcast Website
+# Podcast Website Template
 
 The goal of this project was to create a template of a podcast website in which the user could easily update content. 
 
@@ -19,4 +19,4 @@ While working on this project I learned how to:
 
 [Click here to visit the website](https://the-african-block.vercel.app/).
 
-<img src="https://github.com/ytraiba/Portfolio/blob/main/thumbnail.png" alt="drawing" style="width:500px;"/>
+<img src="" alt="drawing" style="width:500px;"/>
