@@ -8,7 +8,7 @@ While working on this project I learned how to:
 
 * Create a mobile ready website that scales to any screen size. 
 * Implement a colored theme given to me by a client
-* Create a podcast website that is easily updated thanks to React components.
+* Create a podcast website that is easily updated using React components.
 
 ## Dependencies & Libraries
 
