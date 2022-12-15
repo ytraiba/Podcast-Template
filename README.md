@@ -19,4 +19,4 @@ While working on this project I learned how to:
 
 [Click here to visit the website](https://the-african-block.vercel.app/).
 
-<img src="https://github.com/ytraiba/TheAfricanBlock/blob/main/thumbnail.png" alt="drawing" style="height:270px;"/> <img src="https://github.com/ytraiba/TheAfricanBlock/blob/main/thumbnail2.png" alt="drawing" style="height:270px;"/>
+<img src="https://github.com/ytraiba/PodcastTemplate/blob/main/src/assets/thumbnail.png" alt="drawing" style="height:270px;"/> <img src="https://github.com/ytraiba/TheAfricanBlock/blob/main/src/assets/thumbnail2.png" alt="drawing" style="height:270px;"/>
