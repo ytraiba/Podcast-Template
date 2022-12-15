@@ -1,7 +1,5 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
-// import background from '../assets/background.jpeg';
-
 
 const Home = () => {
   return (

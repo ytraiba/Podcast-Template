@@ -14,7 +14,6 @@ const NavListen = () => {
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
       <div>
         <a className='ml-6 text-3xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
-        {/* <img src={Logo} alt='Logo' style={{ width: '250px' }} /> */}
       </div>
 
       {/* menu */}
