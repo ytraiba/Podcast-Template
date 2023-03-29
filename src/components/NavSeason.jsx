@@ -13,7 +13,7 @@ const NavListen = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
       <div>
-        <a className='ml-6 text-3xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
+        <a className='ml-6 text-3xl font-bold border-b-4 border-yellow-300' href="../">The Big Block</a>
       </div>
 
       {/* menu */}

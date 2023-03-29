@@ -8,7 +8,7 @@ const Home = () => {
       <div className='max-w-[1200px] mx-auto px-8 flex flex-col justify-center h-full items-center pt-2'>
         <span className='flex'>
           <p className='text-[white] font-bold text-2xl sm:text-4xl '>Brought to you by</p>&nbsp;&nbsp;
-          <p class='text-black font-bold text-2xl sm:text-4xl'>DataNovae</p>
+          <p class='text-black font-bold text-2xl sm:text-4xl'>Our Company</p>
         </span>
         <h2 className='text-6xl text-center sm:text-8xl font-extrabold text-yellow-300'>
           Welcome to the podcast.</h2>

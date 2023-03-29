@@ -15,11 +15,11 @@ const About = () => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold text-white'>
               
-              <p>THE AFRICAN BLOCK:</p>
+              <p>THE BIG BLOCK:</p>
             </div>
             <div className='text-xl md:text-2xl font-bold text-white'>
               <p>
-              The African Block is working to highlight innovators across the African continent who are
+              The Big Block is working to highlight innovators across the African continent who are
               creatively driving the adoption of defi, cryptocurrency, and other blockchain-based technologies and applications.  
               A semi-weekly podcast will be the platform's centerpiece, featuring in-depth interviews with industry 
               leaders, panel discussions between various stakeholders, and highlights of recent developments.

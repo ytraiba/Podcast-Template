@@ -43,7 +43,7 @@ const Navbar = () => {
         </li>
         <li className='inline '>
           <a className='border-b-2 border-[#b625d9] hover:text-yellow-300' href="https://david-app-eta.vercel.app/">
-            DataNovae
+            Our Company
           </a>
         </li>
         
@@ -86,7 +86,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-4 text-4xl'>
-          <a className='border-b-2 border-[#b625d9]' href="https://david-app-eta.vercel.app/">DataNovae</a>
+          <a className='border-b-2 border-[#b625d9]' href="https://david-app-eta.vercel.app/">Our Company</a>
         </li>
       </ul>
     </div>
