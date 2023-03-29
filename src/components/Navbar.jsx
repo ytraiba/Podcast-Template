@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#b5b5b5] text-black'>
       <div className='flex items-center sm:place-items-end'>
-        <a className='whitespace-nowrap text-2xl sm:text-3xl font-bold border-b-4 border-yellow-300' href="../">The African Block</a>
+        <a className='whitespace-nowrap text-2xl sm:text-3xl font-bold border-b-4 border-yellow-300' href="../">The Big Block</a>
         <a href="https://david-app-eta.vercel.app/" className='w-[100%] sm:flex sm:place-items-end'>
         <p className='text-lg sm:text-xl text-center font-bold pl-4 invisible lg:visible'>by</p>
         <img src={Logo} alt='Logo' className='h-5 pl-4 sm:pl-2 pr-4 invisible lg:visible' />
