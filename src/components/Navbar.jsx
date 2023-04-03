@@ -42,7 +42,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='inline '>
-          <a className='border-b-2 border-[#b625d9] hover:text-yellow-300' href="https://david-app-eta.vercel.app/">
+          <a className='border-b-2 border-[#b625d9] hover:text-yellow-300' href="https://business-template-mu.vercel.app/">
             Our Company
           </a>
         </li>
@@ -86,7 +86,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-4 text-4xl'>
-          <a className='border-b-2 border-[#b625d9]' href="https://david-app-eta.vercel.app/">Our Company</a>
+          <a className='border-b-2 border-[#b625d9]' href="https://business-template-mu.vercel.app/">Our Company</a>
         </li>
       </ul>
     </div>
